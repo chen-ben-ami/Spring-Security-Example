@@ -14,7 +14,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class UserService {
 
     private final ItemService itemService;
-    private final List<StoreItem> userItems = new ArrayList<>();
+    public final List<StoreItem> userItems = new ArrayList<>();
 
     public List<StoreItem> getPurchasedItems() {
         return userItems;
